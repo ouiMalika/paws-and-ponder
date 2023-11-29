@@ -1,0 +1,10 @@
+
+#body {
+width: 3024px;
+height: 1964px;
+flex-shrink: 0;
+}
+
+.background-container {
+fill: linear-gradient(180deg, rgba(219, 199, 192, 0.00) -86.16%, #AAA2B1 99.99%);
+}
