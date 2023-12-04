@@ -1,10 +1,26 @@
-
-#body {
+body {
 width: 3024px;
 height: 1964px;
 flex-shrink: 0;
+display: flex;
+background-color: #F8EFEB;
 }
+
 
 .background-container {
 fill: linear-gradient(180deg, rgba(219, 199, 192, 0.00) -86.16%, #AAA2B1 99.99%);
 }
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
