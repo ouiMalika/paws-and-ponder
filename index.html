@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Interactive Bone Slider</title>
-    <style>
-        body {
-            margin: 6em;
-        }
-    </style>
+    <title>Paws and Ponder</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 
-    <div id="section1" class="section">
-        <h1>Section 1</h1>
+<div id="section1" class="section">
 
 
-    <img src="text-images/Title.png" 
-    style="width: 100%; height: auto;"
-        alt="Title Page">
+    <div class="third">
 
-    <!-- SVG Graphic for Bone -->
+        <div class="inner">
+
+            <!-- SVG Graphic for Bone -->
     <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.66 41.67">
         <defs>
              <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
@@ -74,10 +69,22 @@
         document.getElementById('slider').value = 0;
         sliderChange(0)
     </script>
+            
+        </div>
+
+    
         <button onclick="scrollToSection('section2')">Go to Section 2</button>
+        
     </div>
 
-    <div id="section2" class="section">
+    <div class="two-third">
+        <img src="text-images/Title.png" style="width: 100%; height: auto;" alt="Title Page">
+    </div>
+
+</div>
+
+
+        <div id="section2" class="section">
         <h1>Section 2</h1>
         <button onclick="scrollToSection('section3')">Go to Section 3</button>
     </div>
